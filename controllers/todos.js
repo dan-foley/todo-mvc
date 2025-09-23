@@ -57,10 +57,10 @@ module.exports = {
             { _id: req.body.todoIdFromJSFile },
             { todo: req.body.newTodoText }
         );
-        console.log('Todo Edited');
-        res.json('Todo Edited');
+            console.log('Todo Edited');
+            res.json('Todo Edited');
         } catch (err) {
-        console.log(err);
+            console.log(err);
         }
     }
 }    
